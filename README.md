@@ -12,9 +12,16 @@ A self learning about diffusion model, based on [Tutorial on Stable Diffusion Mo
   
 The project uses MNIST, a set of 28x28 images of handwritten 0-9 digits. By the end, the model is able to take in a number prompt and output an image of the digit.
 
-## Result
+## Result MNIST
 
 | ![Caption 1](result/unet.png) | ![Caption 2](result/unet_alternative.png) | ![Caption 3](result/unet_transformer.png) | ![Caption 4](result/autoencoder.png) |
 | :------------------------------: | :------------------------------: | :------------------------------: | :------------------------------: |
 | U-Net (general)                            | U-Net Alternative (general)                | U-Net Transformer (digit 0)               | Autoencoder (digit 0)                      |
 
+Then I also apply this to other datasets.
+
+## Result FashionMNIST
+
+| ![Caption 1](result/unet_transformer_fashion_coat.png) | ![Caption 2](result/unet_transformer_fashion_ankleboot.png) | ![Caption 3](result/unet_transformer_fashion_trouser.png) | ![Caption 4](result/unet_transformer_fashion_sandal.png) |
+| :------------------------------: | :------------------------------: | :------------------------------: | :------------------------------: |
+| U-Net Transformer (Coat)                            | U-Net Transformer (Ankle Boot)                | U-Net Transformer (Trouser)               | U-Net Transformer (Sandal)                      |
